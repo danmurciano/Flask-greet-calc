@@ -1,0 +1,42 @@
+html {
+  margin: 20px auto;
+  text-align: center;
+  background-color: #1f1f1f;
+}
+
+h1 {
+  color: white;
+  font-size: 44px;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 30px;
+}
+
+#search-form input, button {
+  font-size: 18px;
+  font-family: "lato", sans-serif;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border-radius: 24px;
+  border: none;
+}
+
+button {
+  color: white !important;
+}
+
+button:active {
+  filter: brightness(0.7);
+}
+
+.search-btn {
+  background-color: #696969;
+}
+
+.remove-btn {
+  background-color: #b83d25;
+}
+
+.gif {
+  height: 300px;
+  margin: 30px;
+}
