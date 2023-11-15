@@ -2,9 +2,9 @@ from app import app
 import unittest
 
 class TestCalculator(unittest.TestCase):
-    # def setUp(self):
-    #     self.client = app.test_client(self)
-    #
+    def setUp(self):
+        self.client = app.test_client(self)
+
     # def test_add(self):
     #     response = self.client.get('/add?a=2&b=2')
     #     self.assertIn(b'4', response.data)
